@@ -77,7 +77,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between pb-3 border-b border-white/10">
                   <span className="text-white/50">LOCATION</span>
-                  <span className="text-white font-medium text-right">Yogyakarta, Indonesia</span>
+                  <span className="text-white font-medium text-right">Surabaya, Indonesia</span>
                 </div>
                 <div className="flex items-center justify-between pb-1">
                   <span className="text-white/50">CORE MOTTO</span>

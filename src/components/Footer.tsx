@@ -52,7 +52,7 @@ export const Footer: React.FC<FooterProps> = ({ onBackToTop }) => {
           <div className="md:col-span-4 font-mono text-xs text-white/60 space-y-1">
             <div className="flex items-center gap-2 text-white">
               <span className="w-2 h-2 rounded-full bg-[#10b981] animate-ping" />
-              <span>YOGYAKARTA, ID (WIB / UTC+7)</span>
+              <span>SURABAYA, ID (WIB / UTC+7)</span>
             </div>
             <div className="text-white/80 font-mono font-bold text-sm">
               LIVE LOCAL: {currentTime || '07:37:00'}

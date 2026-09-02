@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onConnect }) => {
           </div>
 
           <div className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-white/60">
-            <span>✦ YOGYAKARTA, ID</span>
+            <span>✦ SURABAYA, ID</span>
           </div>
         </div>
 

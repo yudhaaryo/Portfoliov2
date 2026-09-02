@@ -51,11 +51,10 @@ export const Navigation: React.FC<NavigationProps> = ({
     <>
       <header
         id="main-navigation-header"
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
             ? 'bg-[#090a0f]/90 backdrop-blur-md border-b border-white/10 py-3.5 shadow-2xl shadow-black/50'
             : 'bg-transparent py-5 border-b border-white/5'
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo / Brand */}
@@ -84,7 +83,7 @@ export const Navigation: React.FC<NavigationProps> = ({
                 </span>
               </div>
               <span className="hidden sm:block font-mono text-[10px] text-white/40 tracking-wider">
-                YOGYAKARTA • UTC+7
+                SURABAYA • UTC+7
               </span>
             </div>
           </button>
@@ -98,11 +97,10 @@ export const Navigation: React.FC<NavigationProps> = ({
                   key={item.id}
                   id={`nav-item-${item.id}`}
                   onClick={() => handleLinkClick(item.id)}
-                  className={`relative px-4 py-1.5 text-xs font-mono tracking-wider transition-all duration-200 rounded-full ${
-                    isActive
+                  className={`relative px-4 py-1.5 text-xs font-mono tracking-wider transition-all duration-200 rounded-full ${isActive
                       ? 'text-black font-bold bg-[#f2f3f7]'
                       : 'text-white/70 hover:text-white hover:bg-white/5'
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </button>
