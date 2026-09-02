@@ -21,7 +21,7 @@ export const ContactSection: React.FC = () => {
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formState.name || !formState.email || !formState.message) return;
-    
+
     // Construct mailto link with encoded parameters
     const subject = encodeURIComponent(formState.subject || `Inquiry from ${formState.name} via Portfolio`);
     const body = encodeURIComponent(
@@ -239,7 +239,7 @@ export const ContactSection: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <span>LOCATION / TIMEZONE</span>
-                  <span className="text-white">Yogyakarta (WIB / UTC+7)</span>
+                  <span className="text-white">Surabaya (WIB / UTC+7)</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>WORK ARRANGEMENT</span>
