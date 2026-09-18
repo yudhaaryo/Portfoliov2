@@ -89,7 +89,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onConnect }) => {
 
             {/* Supporting Description */}
             <p className="text-base sm:text-lg text-white/70 max-w-xl font-sans leading-relaxed mb-8 sm:mb-10">
-              I specialize in full-stack web applications, database-driven management systems, and high-performance user interfaces. Based in Yogyakarta, turning complex operational workflows into intuitive, resilient code.
+              I specialize in full-stack web applications, database-driven management systems, and high-performance user interfaces. Based in Surabaya, turning complex operational workflows into intuitive, resilient code.
             </p>
 
             {/* Primary Action CTAs & Floating Labels */}
@@ -184,7 +184,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProjects, onConnect }) => {
                   EXPERIENCE
                 </span>
                 <span className="font-display font-black text-2xl text-white mt-1">
-                  3+ <span className="text-xs font-mono font-normal text-white/50">Years</span>
+                  1 <span className="text-xs font-mono font-normal text-white/50">Years</span>
                 </span>
                 <span className="font-mono text-[10px] text-[#a3e635] mt-1">
                   Full-Cycle Delivery
