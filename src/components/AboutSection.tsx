@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
           {/* Left: Bio Text */}
           <div className="lg:col-span-7 space-y-6 text-base sm:text-lg text-white/75 font-sans leading-relaxed">
             <p>
-              With an academic foundation in Information Technology and vocational engineering from Yogyakarta, I build reliable web systems, backend architectures, and high-clarity user interfaces that solve tangible everyday challenges.
+              With an academic foundation in Information Technology and vocational engineering from Surabaya, I build reliable web systems, backend architectures, and high-clarity user interfaces that solve tangible everyday challenges.
             </p>
             <p className="text-white/60">
               Whether architecting institutional inventory systems with barcode scanners, creating logistics tracking dashboards with live telemetry, or polishing modern responsive web apps, I prioritize maintainability, security, and delightful user ergonomics over unnecessary fluff.
